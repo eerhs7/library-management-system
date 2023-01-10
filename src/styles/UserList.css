@@ -1,0 +1,53 @@
+.user_container h1 {
+    padding: 12px;
+    text-align: center;
+}
+
+.users_card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 22rem));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.user_card_info {
+    padding: 20px 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 20px grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* cursor: pointer; */
+}
+
+.user_card_info h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.user_card_info p {
+    font-size: 17px;
+    padding: 0 0 20px;
+}
+
+.user_card_info button {
+    margin: 10px;
+    padding: 0.8rem;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #E14D2A;
+    color: #E14D2A;
+}
+
+.user_card_info button:hover {
+    background-color: #E14D2A;
+    color: white;
+}
+
+#name {
+    color: #144272;
+}

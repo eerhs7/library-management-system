@@ -1,0 +1,26 @@
+/* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), */
+
+.user_login {
+    background: url('../../public/images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.user_login .form h1 {
+    color: #144272
+}
+
+.user_login .form button {
+    font-weight: bold;
+    border: 1px solid #144272;
+    color: #144272;
+}
+
+.user_login .form button:hover {
+    background-color: #144272;
+    color: white;
+    cursor: pointer;
+}

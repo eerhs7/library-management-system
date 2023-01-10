@@ -1,0 +1,68 @@
+.add_user {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.form_container {
+    margin: 0;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #e2e2e2;
+    opacity: 0.85;
+    height: 600px;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.form_container h1 {
+    padding: 10px 0px 30px;
+    text-align: center;
+    color: #144272
+}
+
+.form_inputs {
+    /* background-colo#914d4d3%); */
+    display: flex;
+    flex-direction: column;
+    /* height: 250px; */
+}
+
+.form_inputs input {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    height: 48px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    /* background-color: transparent; */
+}
+
+.form_container button {
+    position: relative;
+    top: 40px;
+    font-size: 18px;
+    padding: 12px 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.add_user .form_container button {
+    border: 1px solid #E14D2A;
+    color: #E14D2A;
+}
+
+.add_user .form_container button:hover {
+    background-color: #E14D2A;
+    color: white;
+    cursor: pointer;
+}

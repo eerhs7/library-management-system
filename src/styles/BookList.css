@@ -1,0 +1,78 @@
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.book_list #title {
+    padding: 12px;
+    text-align: center;
+}
+
+.books_container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 800px
+}
+
+.card_body {
+    display: flex;
+    /* align-items: center; */
+    margin: 40px 0px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px #b8b8b8;
+    border: 1px solid #b8b8b8;
+}
+
+.card_img img {
+    width: 200px;
+    height: 275px;
+    border-radius: 20px;
+}
+
+.card_info {
+    margin-left: 30px;
+}
+
+.card_info h1 {
+    padding: 15px 0 10px;
+}
+
+.card_info p {
+    padding: 0px 0 15px;
+    font-size: 16px;
+}
+
+#authors {
+    color: #144272;
+}
+
+.btn1 {
+    margin-right: 15px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #E14D2A;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: #E14D2A;
+    color: white;
+}
+
+.btn2 {
+    margin-right: 15px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #144272;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: #144272;
+    color: white;
+}
