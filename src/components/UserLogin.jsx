@@ -7,7 +7,7 @@ const UserLogin = () => {
     let handleSubmit = (e) => {
         e.preventDefault();
 
-        navigate('/user')
+        navigate('/user/')
     }
 
     return (

@@ -56,11 +56,11 @@ const AdminAddBooks = () => {
                         </div>
                         <div className="shortDesc">
                             <textarea value={shortDescription} onChange={(e) => setShortDesc(e.target.value)}
-                                placeholder='Short Description' cols="87" rows="8" required></textarea>
+                                placeholder='Short Description' rows="5" required></textarea>
                         </div>
                         <div className="longDesc">
                             <textarea value={longDescription} onChange={(e) => setLongDesc(e.target.value)}
-                                placeholder='Long Description' cols="87" rows="12" required></textarea>
+                                placeholder='Long Description' rows="10" required></textarea>
                         </div>
                         <div className="thumbnailUrl">
                             <input value={thumbnailUrl} onChange={(e) => setThumbnail(e.target.value)}

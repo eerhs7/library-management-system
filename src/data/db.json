@@ -43,23 +43,6 @@
       ]
     },
     {
-      "id": 3,
-      "title": "Specification by Example",
-      "isbn": "1617290084",
-      "pageCount": 0,
-      "publishedDate": {
-        "$date": "2011-06-03T00:00:00.000-0700"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
-      "status": "PUBLISH",
-      "authors": [
-        "Gojko Adzic"
-      ],
-      "categories": [
-        "Software Engineering"
-      ]
-    },
-    {
       "id": 4,
       "title": "Flex 3 in Action",
       "isbn": "1933988746",
@@ -299,7 +282,7 @@
       "id": 17,
       "title": "MongoDB in Action",
       "isbn": "1935182870",
-      "pageCount": 0,
+      "pageCount": 200,
       "publishedDate": {
         "$date": "2011-12-12T00:00:00.000-0800"
       },
@@ -2043,7 +2026,7 @@
       "id": 163,
       "title": "Learn Windows PowerShell in a Month of Lunches",
       "isbn": "1617290211",
-      "pageCount": 0,
+      "pageCount": 350,
       "publishedDate": {
         "$date": "2011-04-15T00:00:00.000-0700"
       },
@@ -2159,7 +2142,7 @@
       "id": 172,
       "title": "Kermit 95+",
       "isbn": "1930110057",
-      "pageCount": 0,
+      "pageCount": 290,
       "publishedDate": {
         "$date": "2003-01-01T00:00:00.000-0800"
       },
@@ -2298,7 +2281,7 @@
       "id": 179,
       "title": "Making Java Groovy",
       "isbn": "1935182943",
-      "pageCount": 0,
+      "pageCount": 302,
       "publishedDate": {
         "$date": "2013-09-19T00:00:00.000-0700"
       },
@@ -3480,7 +3463,7 @@
       "id": 242,
       "title": "EJB 3 in Action, Second Edition",
       "isbn": "1935182994",
-      "pageCount": 0,
+      "pageCount": 120,
       "publishedDate": {
         "$date": "2014-04-07T00:00:00.000-0700"
       },
@@ -3672,7 +3655,7 @@
       "id": 252,
       "title": "Windows Phone 7 in Action",
       "isbn": "1617290092",
-      "pageCount": 0,
+      "pageCount": 250,
       "publishedDate": {
         "$date": "2012-08-21T00:00:00.000-0700"
       },
@@ -3749,7 +3732,7 @@
       "id": 256,
       "title": "Machine Learning in Action",
       "isbn": "1617290181",
-      "pageCount": 0,
+      "pageCount": 130,
       "publishedDate": {
         "$date": "2012-04-04T00:00:00.000-0700"
       },
@@ -4596,7 +4579,7 @@
       "id": 303,
       "title": "Scala in Depth",
       "isbn": "1935182706",
-      "pageCount": 0,
+      "pageCount": 260,
       "publishedDate": {
         "$date": "2012-05-14T00:00:00.000-0700"
       },

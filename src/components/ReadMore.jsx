@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-
+import '../styles/ReadMore.css'
 
 const ReadMore = () => {
 
@@ -21,9 +21,16 @@ const ReadMore = () => {
 
     return (
         <div className="read_more">
-            <h1>{book.title}</h1>
-            <p>{book.shortDescription}</p>
-            <p>{book.longDescription}</p>
+            <div className="content">
+                <h1>{book.title}</h1>
+                <div className="desc">
+                    {book.pageCount === 0 ? <h2>No Description found!</h2> :
+                        <>
+                            <p id="long">{book.shortDescription}</p>
+                            <p >{book.longDescription}</p></>}
+
+                </div>
+            </div>
         </div>
     );
 }

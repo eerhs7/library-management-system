@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AdminHome from './components/AdminHome';
 import AdminLogin from './components/AdminLogin';
 import LandingPage from './components/LandingPage';
+import UserHome from './components/UserHome';
 import UserLogin from './components/UserLogin';
 
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/admin-login" element={<AdminLogin />} />
           <Route path="/user-login" element={<UserLogin />} />
           <Route path="/admin/*" element={<AdminHome />} />
+          <Route path="/user/*" element={<UserHome />} />
         </Routes>
       </BrowserRouter>
     </div>

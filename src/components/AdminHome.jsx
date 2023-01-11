@@ -1,4 +1,3 @@
-import '../styles/AdminHome.css'
 import AdminNavBar from './AdminNavbar';
 import { Routes, Route } from 'react-router-dom';
 import AdminDashboard from './AdminDashboard';
@@ -9,6 +8,7 @@ import AdminAddUser from './AdminAddUser';
 import AdminAddBooks from './AdminAddBook';
 
 const AdminHome = () => {
+
     return (
         <div className="admin_home">
             <AdminNavBar />

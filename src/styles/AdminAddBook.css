@@ -9,9 +9,9 @@
     padding: 30px 20px;
     background-color: #e2e2e2;
     opacity: 0.85;
-    height: 1000px;
-    width: 700px;
-    top: 75%;
+    height: 1100px;
+    width: 800px;
+    top: 80%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -43,6 +43,17 @@
     border-radius: 15px;
     font-size: 16px;
     /* background-color: transparent; */
+}
+
+.form_inputs textarea {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
 }
 
 .form_book button {

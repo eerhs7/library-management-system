@@ -1,0 +1,23 @@
+.user_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #144272;
+}
+
+.nav_links li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.nav_links a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    padding: 8px 10px;
+}
+
+.nav_links a:hover {
+    color: #E14D2A;
+}
