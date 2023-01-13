@@ -1,0 +1,88 @@
+.img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.712)), url("../../public/images/adminBG.webp");
+    height: 75vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img p {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    display: inline block;
+    width: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 60px 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+}
+
+.dash_content {
+    margin: 100px 0 0px;
+}
+
+.dash_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash_content_img {
+    background: url("../../public/images/doodle.webp");
+    /* height: 400px; */
+    height: 35vh;
+    width: 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dash_contents .info {
+    background-color: white;
+    width: 600px;
+    box-shadow: 0 2px 20px grey;
+    padding: 40px 20px;
+    border-radius: 8px;
+    position: relative;
+    transform: translate(0, -50%);
+}
+
+.dash_contents .info h1 {
+    text-align: justify;
+    letter-spacing: .2rem;
+    padding: 0 0 20px;
+    font-size: 30px;
+}
+
+#titleU {
+    margin-top: 10px;
+    text-decoration-color: #E14D2A;
+    text-underline-offset: 8px;
+}
+
+.dash_contents .info p {
+    text-align: justify;
+    margin-bottom: 18px;
+    letter-spacing: .1rem;
+}
+
+#adminAuth {
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+}
+
+#adminDesc {
+    font-size: 18px;
+}
+
+#adminLink {
+    color: #E14D2A;
+    font-size: 16px;
+    letter-spacing: .1rem;
+}

@@ -18,6 +18,6 @@
     padding: 8px 10px;
 }
 
-.nav_links a:hover {
+.admin_nav .nav_links a:hover {
     color: #144272;
 }

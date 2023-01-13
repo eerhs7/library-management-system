@@ -1,0 +1,142 @@
+.user_dashboard .img {
+    background-image: url("../../public/images/userBG.jpg");
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user_dashboard .img p {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    display: inline block;
+    width: 60%;
+    background-color: black;
+    opacity: 0.7;
+    padding: 60px 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-weight: 600;
+    transform: translate(-50%, -50%);
+}
+
+.dashContent {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_dash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.learning {
+    width: 1300px;
+    margin: 70px 0;
+    box-shadow: 0 2px 20px grey;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.learning h1 {
+    text-align: justify;
+    letter-spacing: .2rem;
+    padding: 0 0 20px;
+    font-size: 30px;
+}
+
+.learning h1 u {
+    text-decoration-color: #144272;
+    text-underline-offset: 10px;
+}
+
+.learning p {
+    text-align: justify;
+    margin-bottom: 18px;
+    letter-spacing: .1rem;
+}
+
+.dashImg {
+    background: url("../../public/images/userCard.jpg");
+    /* height: 400px; */
+    height: 60vh;
+    width: 1300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashContent .information {
+    background-color: white;
+    width: 900px;
+    box-shadow: 0 2px 20px grey;
+    padding: 40px 20px;
+    border-radius: 8px;
+    position: relative;
+    transform: translate(0, -50%);
+}
+
+.dashContent .information h1 {
+    text-align: justify;
+    letter-spacing: .2rem;
+    padding: 0 0 20px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.dashContent .information h1 {
+    margin-top: 10px;
+    text-decoration-color: #144272;
+    text-underline-offset: 8px;
+}
+
+.dashContent .information p {
+    text-align: justify;
+    margin-bottom: 18px;
+    letter-spacing: .1rem;
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.158), rgba(0, 0, 0, 0.24)), url("../../public/images/footer.svg");
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h1 {
+    font-size: 60px;
+    color: white;
+    padding: 0px 0 50px;
+}
+
+.footer p {
+    font-size: 22px;
+    color: white;
+    padding: 0 0 50px;
+}
+
+.footer button {
+    border: 1px solid white;
+    padding: 18px 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+}
+
+.footer button:hover {
+    background-color: white;
+    color: black;
+}
